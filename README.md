@@ -1,6 +1,6 @@
-﻿# Vivek Reddy — Personal Portfolio
+Personal Portfolio
 
-Personal website for Vivek Reddy, AI and ML Engineer and IIT Guwahati graduate.
+Personal website for Vivek 
 
 The site uses HTML, CSS, and JavaScript with saved light/dark preferences.
 The resume opens in Google Drive. Contact and social links are in the header.
