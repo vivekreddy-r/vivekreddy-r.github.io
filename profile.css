@@ -60,11 +60,11 @@ body {
 h1 {
   margin: 0 0 3px;
   color: var(--heading);
-  font-family: "Manrope", "Inter", Arial, sans-serif;
-  font-size: 24px;
+  font-family: "IM Fell English SC", "IM Fell English", Garamond, serif;
+  font-size: clamp(38px, 6vw, 48px);
   line-height: 1.3;
-  font-weight: 500;
-  letter-spacing: -0.5px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
 }
 
 p {
@@ -212,7 +212,7 @@ footer p a {
   }
 
   h1 {
-    font-size: 24px;
+    font-size: 38px;
   }
 
 }
