@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://v1vekreddy.github.io/sitemap.xml
