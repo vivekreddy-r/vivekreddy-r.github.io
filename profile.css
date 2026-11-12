@@ -105,6 +105,16 @@ p {
 }
 
 @media (pointer: coarse) {
+  .main-navigation > a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+
+  .main-navigation > span {
+    display: none;
+  }
+
   .main-navigation .social-icon {
     width: 44px;
     height: 44px;
@@ -258,6 +268,9 @@ html, body, h1, h2, h3, p, a, footer, .theme-toggle {
   cursor: pointer;
 }
 .theme-toggle[hidden], .sun-icon { display: none; }
+@media (pointer: coarse) {
+  .theme-toggle { width: 44px; height: 44px; }
+}
 .theme-toggle:hover { background: var(--hover); }
 .theme-toggle:focus-visible { outline: 2px solid var(--link); outline-offset: 4px; }
 [data-theme="dark"] .moon-icon { display: none; }

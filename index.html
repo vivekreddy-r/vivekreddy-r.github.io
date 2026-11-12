@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Inter:wght@400;500;600&family=Lora:wght@400&display=swap" rel="stylesheet" />
   <script src="theme.js?v=theme-2"></script>
-  <link rel="stylesheet" href="profile.css?v=restored-20261112" />
+  <link rel="stylesheet" href="profile.css?v=refined-20261112" />
 </head>
 <body>
   <header>
@@ -59,9 +59,8 @@
   <main>
     <section id="about" aria-label="About me">
       <h2>About Me</h2>
-      <p>Hi, I'm Vivek Reddy, an AI/ML Engineer and a 2026 graduate of <a href="#education">IIT Guwahati</a>, where I earned my B.Tech. in Mathematics and Computer Science. I work across machine learning, predictive forecasting, generative AI, large language models, and retrieval-augmented generation (RAG).</p>
-      <p>I'm an AI/ML Intern at Flagestrator, where I've built an OCR pipeline with PaddleOCR to extract small, rotated text from complex P&amp;ID engineering drawings. My experience also includes real-time speech recognition and AI-powered backend services in startup environments. I enjoy turning complex technical problems into reliable, production-ready software.</p>
-      <p>I'm open to opportunities in AI/ML Engineering, Applied AI, Generative AI, and Forward Deployed Engineering. Feel free to <a href="https://www.linkedin.com/in/vivek-reddy-7050603a9/">connect with me on LinkedIn</a>.</p>
+      <p>I'm Vivek, an AI/ML Engineer building software for document understanding, retrieval-augmented generation (RAG), and real-time speech. I graduated from <a href="#education">IIT Guwahati</a> in Mathematics and Computer Science and currently work as an AI/ML Intern at Flagestrator.</p>
+      <p>My work connects models with the APIs, data workflows, and evaluation needed to make them useful in applications. I'm open to AI/ML, Applied AI, and Forward Deployed Engineering opportunities. Feel free to <a href="https://www.linkedin.com/in/vivek-reddy-7050603a9/">connect with me on LinkedIn</a>.</p>
     </section>
 
     <section id="experience" aria-labelledby="experience-heading">
@@ -69,9 +68,8 @@
       <article class="experience-entry">
         <h3>AI/ML Intern &mdash; Flagestrator</h3>
         <p class="entry-date">July 2026 &ndash; Present</p>
-        <p>At Flagestrator, I work on AI systems for engineering documents and enterprise applications. I've built a document editing platform with PaddleOCR, PaddleOCR-VL, Python, and FastAPI. It turns scanned engineering drawings into editable documents. These drawings often contain small, rotated text, so I improved the extraction through preprocessing, confidence analysis, and bounding-box editing.</p>
-        <p>I've also built RAG systems with LangChain and LangGraph, connecting document retrieval with language models through embeddings, semantic search, and reranking. These systems retrieve relevant context and generate answers grounded in the source material, with structured workflows for retrieval and response generation.</p>
-        <p>Alongside the document work, I've integrated Sarvam AI with LiveKit for real-time, multilingual speech transcription. Across these projects, I work on bringing OCR, retrieval, language models, and speech into practical applications.</p>
+        <p>I built a document-editing platform that turns scanned engineering drawings into editable documents, using PaddleOCR, PaddleOCR-VL, Python, and FastAPI. To handle small, rotated text in P&amp;ID drawings, I worked on image preprocessing, OCR benchmarking, confidence analysis, and bounding-box-based editing.</p>
+        <p>I also built RAG workflows with LangChain and LangGraph, combining semantic retrieval and reranking to ground answers in source documents. For real-time multilingual transcription, I integrated Sarvam AI speech recognition with LiveKit.</p>
       </article>
     </section>
 
@@ -80,21 +78,21 @@
       <article class="project-entry">
         <h3>RAG Evaluation Framework</h3>
         <p class="project-tools">LangChain &middot; LangGraph &middot; DeepEval &middot; FAISS</p>
-        <p>I built a framework that takes PDF knowledge bases through vector embedding, semantic retrieval, and answer generation using LangGraph. To understand how well the system performs, I added automated evaluation with DeepEval for answer relevancy, faithfulness, contextual relevancy, and correctness. I also used structured JSONL logs to compare retrieval strategies, track pass rates, and identify where retrieval or generation needed improvement.</p>
+        <p>RAG answers can look convincing even when retrieval or grounding fails. I built a PDF question-answering workflow with automated checks for answer relevancy, faithfulness, contextual relevancy, and correctness. Structured JSONL logs let me compare retrieval strategies, track pass rates, and identify retrieval and generation failures.</p>
       </article>
       <article class="project-entry">
         <h3>LangGraph Research Assistant</h3>
-        <p class="project-tools">Python &middot; LangGraph &middot; LangChain &middot; OpenAI &middot; Tavily &middot; Pydantic</p>
-        <p>I built a multi-agent research assistant that creates analyst personas, runs parallel interview workflows, and brings the findings together in structured Markdown reports. It uses Tavily to ground research in web sources and includes human approval before proceeding. I organized the workflow with reusable LangGraph nodes, Pydantic models, and shared state to make the research process easier to maintain and extend.</p>
+        <p class="project-tools">LangGraph &middot; Tavily &middot; Pydantic</p>
+        <p>To organize research across multiple perspectives, I built an assistant that creates analyst personas, runs parallel interviews, and combines findings into Markdown reports. Web retrieval grounds the research in sources, while human approval provides a checkpoint. Reusable graph nodes, typed models, and shared state keep the workflow structured and maintainable.</p>
       </article>
     </section>
 
     <section id="skills" aria-labelledby="skills-heading">
       <h2 id="skills-heading">Skills</h2>
-      <p><strong>AI &amp; Machine Learning:</strong> Machine learning, deep learning, predictive forecasting, and model evaluation.</p>
-      <p><strong>LLM Engineering:</strong> RAG, LangChain, LangGraph, embeddings, semantic search, reranking, DeepEval, and FAISS.</p>
+      <p><strong>Machine Learning:</strong> Deep learning, predictive forecasting, and model evaluation.</p>
+      <p><strong>LLM &amp; Retrieval:</strong> RAG, LangChain, LangGraph, FAISS, and DeepEval.</p>
       <p><strong>Document &amp; Speech AI:</strong> PaddleOCR, PaddleOCR-VL, PDF processing, Sarvam AI, and LiveKit.</p>
-      <p><strong>Software &amp; Tools:</strong> Python, FastAPI, APIs, Pydantic, Git, and Docker.</p>
+      <p><strong>Backend &amp; Tools:</strong> Python, FastAPI, Pydantic, Docker, and Git.</p>
     </section>
 
     <section id="education" aria-labelledby="education-heading">
