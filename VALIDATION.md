@@ -56,6 +56,18 @@ establish a performance improvement or regression, and are not field Core Web Vi
 Raw JSON, functional-check results, and screenshots are retained in the workspace's
 `output/portfolio-audit/` directory. A live post-deployment check is recorded separately there.
 
+### Published-site verification
+
+GitHub Pages deployment succeeded for implementation commit `9a2e647`.
+All 36 browser checks also passed against https://v1vekreddy.github.io/.
+The homepage, six project pages, three fonts, social image, robots, and sitemap
+returned HTTP 200 (13 checks). The published homepage contains the new headline.
+
+Post-deployment Lighthouse mobile run: **Performance 98, Accessibility 100,
+Best Practices 100, SEO 100**. FCP/LCP: 1.1 s; CLS: 0; TBT: 140 ms.
+These are one-run lab measurements; short CPU tasks and test-host load can vary.
+Scores do not establish full accessibility compliance or real-user performance.
+
 ## Content requiring verification and next improvements
 
 See `CONTENT_REVIEW.md` for the complete per-project checklist. Highest priorities:
